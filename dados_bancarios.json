@@ -1,0 +1,38 @@
+{
+  "usuarios": [
+    {
+      "nome": "FS",
+      "data_nascimento": "18-08-1979",
+      "cpf": "22222222222",
+      "endereco": "R ",
+      "senha": "14b1f7168485a18c1893f8107c12eab6e5231c729102c875d4fa13d95ab09eb6"
+    }
+  ],
+  "contas": [
+    {
+      "agencia": "0001",
+      "numero_conta": 1,
+      "usuario": {
+        "nome": "FS",
+        "data_nascimento": "18-08-1979",
+        "cpf": "22222222222",
+        "endereco": "R ",
+        "senha": "14b1f7168485a18c1893f8107c12eab6e5231c729102c875d4fa13d95ab09eb6"
+      },
+      "saldo": 66.0,
+      "extrato": [
+        {
+          "tipo": "Dep\u00f3sito",
+          "valor": 100.0,
+          "data": "29/04/2025 08:41:59"
+        },
+        {
+          "tipo": "Saque",
+          "valor": 34.0,
+          "data": "29/04/2025 08:42:21"
+        }
+      ]
+    }
+  ],
+  "salt": "28ccf97c2e335de9c733eb9f2ca67ed51167cd82ba48dd37f89aaf398fe0e3c0"
+}
